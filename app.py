@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 # LOGO (adicione seu arquivo em 'img/logo.png')
 st.set_page_config(page_title="Agente de Notas Fiscais", layout="wide")
-st.image(r"C:\Users\rosej\OneDrive\Documentos\I2A2\agente_streamlit\app.py\img\beeblue.png", width=150)
+st.image('./logo_beeblue.png', width=150)
 
 st.title("📊 Agente de Notas Fiscais")
 st.write("Escolha uma pergunta abaixo para consultar os dados:")
